@@ -18,6 +18,8 @@ $$\mathbf{h}_1^T B\, \mathbf{h}_2 = 0, \qquad \mathbf{h}_1^T B\, \mathbf{h}_1 = 
 
 $B$ has 6 unknowns (5 if skew is assumed zero), so 3 views suffice; $\mathbf{K}$ is then recovered from $B$ by Cholesky-style decomposition. This is why the board must be shown at *different orientations* — parallel views give redundant constraints.
 
+호모그래피(Homography)는 한 평면을 다른 평면으로 투영(Projection)했을 때, 두 평면 사이의 대응점들이 갖는 기하학적 변환 관계
+
 ## Lens Distortion Models
 
 Real lenses deviate from the ideal pinhole model. Two standard models:
